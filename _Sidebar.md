@@ -2,6 +2,7 @@
 * [Installation - iOS](https://github.com/wix/react-native-navigation/wiki/Installation---iOS#installation---ios)
 * [Installation - Android](#installation---android)
 * [Usage](#usage)
+* [Migrating to version 2.0]()
 * [Top Level API](#top-level-api)
 * [Screen API](#screen-api)
 * [Styling the navigator](#styling-the-navigator)
