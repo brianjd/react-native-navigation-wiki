@@ -1,5 +1,5 @@
 * [Why use this package](#why-use-this-package)
-* [Installation - iOS](#installation---ios)
+* [Installation - iOS](https://github.com/wix/react-native-navigation/wiki/Installation---iOS#installation---ios)
 * [Installation - Android](#installation---android)
 * [Usage](#usage)
 * [Top Level API](#top-level-api)
