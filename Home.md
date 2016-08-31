@@ -4,19 +4,21 @@ App-wide support for 100% native navigation with an easy cross-platform interfac
 
 ## Overview
 
-* [Why use this package](#why-use-this-package)
-* [Installation - iOS](#installation---ios)
-* [Installation - Android](#installation---android)
-* [Usage](#usage)
-* [Top Level API](#top-level-api)
-* [Screen API](#screen-api)
-* [Styling the navigator](#styling-the-navigator)
-* [Adding buttons to the navigator](#adding-buttons-to-the-navigator)
-* [Styling the tab bar](#styling-the-tab-bar)
-* [Deep links](#deep-links)
-* [Third party libraries support](#third-party-libraries-support)
-* [Release Notes](RELEASES.md)
-* [License](#license)
+* [Why use this package](https://github.com/wix/react-native-navigation/wiki#why-use-this-package)
+* [Installation - iOS](https://github.com/wix/react-native-navigation/wiki/Installation---iOS#installation---ios)
+* [Installation - Android](https://github.com/wix/react-native-navigation/wiki/Installation---Android)
+* [Usage](https://github.com/wix/react-native-navigation/wiki/Usage)
+* [Migrating to version 2.0](https://github.com/wix/react-native-navigation/wiki/Migrating-to-version-2.0)
+* [Top Level API](https://github.com/wix/react-native-navigation/wiki/Top-Level-API)
+* [Screen API](https://github.com/wix/react-native-navigation/wiki/Screen-API)
+* [Styling the navigator](https://github.com/wix/react-native-navigation/wiki/Styling-the-navigator)
+* [Adding buttons to the navigator](https://github.com/wix/react-native-navigation/wiki/Adding-buttons-to-the-navigator)
+* [Styling the tab bar](https://github.com/wix/react-native-navigation/wiki/Styling-the-tab-bar)
+* [Deep links](https://github.com/wix/react-native-navigation/wiki/Deep-links)
+* [Third party libraries support](https://github.com/wix/react-native-navigation/wiki/Third-party-libraries-support)
+* [Release Notes](https://github.com/wix/react-native-navigation/blob/master/CHANGELOG.md)
+* [Milestones](https://github.com/wix/react-native-navigation/wiki/Milestones)
+* [License](https://github.com/wix/react-native-navigation/wiki#license)
 
 ## Why use this package
 
