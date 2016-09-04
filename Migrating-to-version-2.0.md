@@ -1,6 +1,6 @@
 Migrating your code base to version 2.0 will require a few changes to your native Java code. 
 
-If you updated your project to `react-native` version > 30 you probably did most of those changes (like creating an `Application` class.
+If you updated your project to `react-native` version > 30 you probably did most of those changes (like creating an `Application` class, in any case, if you have any questions please review https://facebook.github.io/react-native/docs/upgrading.html before opening an issue.
 
 Currently, the actual navigation API has not changed so there will be no changes to your JS code base.
 
