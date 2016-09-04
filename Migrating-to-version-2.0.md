@@ -22,7 +22,7 @@ Currently, the actual navigation API has not changed so there will be no changes
         ...
         />
 	```
-* Implement `isDebug` and `createAdditionalReactPackages`
+* Implement `isDebug` and `createAdditionalReactPackages` in your `MyApplication` class
 
 	```java
 	import com.reactnativenavigation.NavigationApplication;
