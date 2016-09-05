@@ -1,5 +1,7 @@
 # [Version 2.0.0](https://github.com/wix/react-native-navigation/milestone/1)
 
+> Due by November 30, 2016
+
 #### The general goals for this version are:
 * [react-native-controllers](https://github.com/wix/react-native-controllers) will be deprecated and fully merged into [react-native-navigation](https://github.com/wix/react-native-navigation).
 * iOS - Redesign and Refactor
