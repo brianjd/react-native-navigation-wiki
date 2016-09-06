@@ -42,6 +42,7 @@ class FirstTabScreen extends Component {
 
 #### Floating Action Button (FAB) - Android only
 Each screen can contain a single Fab which is displayed at the bottom right corner of the screen.
+
 1. Simple Fab:
 ```js
   static navigatorButtons = {
