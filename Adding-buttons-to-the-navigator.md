@@ -40,6 +40,43 @@ class FirstTabScreen extends Component {
   }
 ```
 
+#### Floating Action Button (FAB) - Android only
+Each screen can contain a single Fab which is displayed at the bottom right corner of the screen.
+1. Simple Fab:
+```js
+  static navigatorButtons = {
+    fab: {
+      collapsedId: 'share',
+      collapsedIcon: require('../../img/ic_share.png'),
+      backgroundColor: '#607D8B'
+    }
+  };
+```
+
+2. Fab with expanded state
+[Example](https://material-design.storage.googleapis.com/publish/material_v_9/0B8v7jImPsDi-ZmQ0UnFPZmtiSU0/components-buttons-fab-transition_speeddial_02.mp4)
+```js
+    fab: {
+      collapsedId: 'share',
+      collapsedIcon: require('../../img/ic_share.png'),
+      expendedId: 'clear',
+      expendedIcon: require('../../img/ic_clear.png'),
+      backgroundColor: '#3F51B5',
+      actions: [
+        {
+          id: 'mail',
+          icon: require('../../img/ic_mail.png'),
+          backgroundColor: '#03A9F4'
+        },
+        {
+          id: 'twitter',
+          icon: require('../../img/ic_twitter.png'),
+          backgroundColor: '#4CAF50'
+        }
+      ]
+    }
+```
+
 #### Buttons object format
 
 ```js
