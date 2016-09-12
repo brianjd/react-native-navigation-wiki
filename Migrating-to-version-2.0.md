@@ -4,6 +4,7 @@ If you updated your project to `react-native` version > 30 you probably did most
 
 Currently, the actual navigation API has not changed so there will be no changes to your JS code base.
 
+* In your `build.gradle` change your `dependencies` to point to `compile project(':react-native-navigation')`
 * Your `MainActivity` should now extend `com.reactnativenavigation.controllers.SplashActivity`
 * Delete the `getPackages()` from `MainActivity`. Don't forget to delete unused imports after this step.
 * Create a custom Application class and update the `Application` element in `AndroidManifest.xml`
