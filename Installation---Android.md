@@ -1,4 +1,4 @@
-* Make sure you are using react-native version 0.25.1
+* Make sure you are using react-native version 0.31.0
 
  >Note: Android adaptation is still under active development therfore the API might break from time to time. 
  
