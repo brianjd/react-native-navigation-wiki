@@ -8,7 +8,6 @@ App-wide support for 100% native navigation with an easy cross-platform interfac
 * [Installation - iOS](https://github.com/wix/react-native-navigation/wiki/Installation---iOS#installation---ios)
 * [Installation - Android](https://github.com/wix/react-native-navigation/wiki/Installation---Android)
 * [Usage](https://github.com/wix/react-native-navigation/wiki/Usage)
-* [Migrating to version 2.0](https://github.com/wix/react-native-navigation/wiki/Migrating-to-version-2.0)
 * [Top Level API](https://github.com/wix/react-native-navigation/wiki/Top-Level-API)
 * [Screen API](https://github.com/wix/react-native-navigation/wiki/Screen-API)
 * [Styling the navigator](https://github.com/wix/react-native-navigation/wiki/Styling-the-navigator)
