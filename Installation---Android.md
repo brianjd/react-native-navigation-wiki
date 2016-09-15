@@ -1,3 +1,10 @@
+### Important
+The `latest` (stable) version of this framework is `1.x.x` which supports react-native `0.25.1`. It's installation instructions are [here](https://github.com/wix/react-native-navigation/blob/v1.x.x/README.md#installation---android). To use it specify `"react-native-navigation": "latest"` in your package.json dependencies.
+
+The following instructions are for the `next` version `2.0.0-experimental.x`, which supports react-native `0.31.0`. To use it specify `"react-native-navigation": "next"` in your package.json dependencies. Bear in mind, as the name of the version suggests - this version is experimental and under heavy development, and will break from time to time - thus when using it you should check out these instructions from time to time to avoid breaking your project. 
+
+----
+
 * Make sure you are using react-native version 0.31.0
 
  >Note: Android adaptation is still under active development therfore the API might break from time to time. 
