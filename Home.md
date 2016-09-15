@@ -15,7 +15,6 @@ App-wide support for 100% native navigation with an easy cross-platform interfac
 * [Styling the tab bar](https://github.com/wix/react-native-navigation/wiki/Styling-the-tab-bar)
 * [Deep links](https://github.com/wix/react-native-navigation/wiki/Deep-links)
 * [Third party libraries support](https://github.com/wix/react-native-navigation/wiki/Third-party-libraries-support)
-* [Release Notes](https://github.com/wix/react-native-navigation/blob/master/CHANGELOG.md)
 * [Milestones](https://github.com/wix/react-native-navigation/wiki/Milestones)
 * [License](https://github.com/wix/react-native-navigation/wiki#license)
 
