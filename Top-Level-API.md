@@ -4,7 +4,7 @@
 import { Navigation } from 'react-native-navigation';
 ```
 
-## registerComponent(screenID, generator, store = undefined, Provider = undefined)
+##### registerComponent(screenID, generator, store = undefined, Provider = undefined)
 
 Every screen component in your app must be registered with a unique name. The component itself is a traditional React component extending `React.Component`.
 
