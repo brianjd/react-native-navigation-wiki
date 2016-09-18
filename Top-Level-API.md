@@ -1,10 +1,10 @@
-#### `Navigation`
+### `Navigation`
 
 ```js
 import { Navigation } from 'react-native-navigation';
 ```
 
-##### registerComponent(screenID, generator, store = undefined, Provider = undefined)
+#### `registerComponent(screenID, generator, store = undefined, Provider = undefined)`
 
 Every screen component in your app must be registered with a unique name. The component itself is a traditional React component extending `React.Component`.
 
@@ -16,7 +16,7 @@ Navigation.registerComponent('example.FirstTabScreen', () => FirstTabScreen);
 Navigation.registerComponent('example.FirstTabScreen', () => FirstTabScreen, store, Provider);
 ```
 
- * **startTabBasedApp(params)**
+#### `startTabBasedApp(params)`
 
 Change your app root into an app based on several tabs (usually 2-5), a very common pattern in iOS (like Facebook app or the iOS Contacts app). Every tab has its own navigation stack with a native nav bar.
 
@@ -59,7 +59,7 @@ Navigation.startTabBasedApp({
 });
 ```
 
- * **startSingleScreenApp(params)**
+#### `startSingleScreenApp(params)`
 
 Change your app root into an app based on a single screen (like the iOS Calendar or Settings app). The screen will receive its own navigation stack with a native nav bar
 
@@ -85,7 +85,7 @@ Navigation.startSingleScreenApp({
 });
 ```
 
- * **showModal(params = {})**
+#### `showModal(params = {})`
 
 Show a screen as a modal.
 
@@ -100,7 +100,7 @@ Navigation.showModal({
 });
 ```
 
- * **dismissModal(params = {})**
+#### `dismissModal(params = {})`
 
 Dismiss the current modal.
 
@@ -110,7 +110,7 @@ Navigation.dismissModal({
 });
 ```
 
- * **dismissAllModals(params = {})**
+#### `dismissAllModals(params = {})`
 
 Dismiss all the current modals at the same time.
 
@@ -120,7 +120,7 @@ Navigation.dismissAllModals({
 });
 ```
 
-* **showLightBox(params = {})**
+#### `showLightBox(params = {})`
 
 Show a screen as a lightbox.
 
@@ -135,7 +135,7 @@ Navigation.showLightBox({
 });
 ```
 
-* **dismissLightBox(params = {})**
+#### `dismissLightBox(params = {})`
 
 Dismiss the current lightbox.
 
@@ -143,7 +143,7 @@ Dismiss the current lightbox.
 Navigation.dismissLightBox();
 ```
 
- * **registerScreen(screenID, generator)**
+#### `registerScreen(screenID, generator)`
 
 This is an internal function you probably don't want to use directly. If your screen components extend `Screen` directly (`import { Screen } from 'react-native-navigation'`), you can register them directly with `registerScreen` instead of with `registerComponent`. The main benefit of using `registerComponent` is that it wraps your regular screen component with a `Screen` automatically.
 
