@@ -7,7 +7,7 @@ The following instructions are for the `next` version `2.0.0-experimental.x`, wh
 
  * Make sure you are using react-native version 0.31.0
 
- * In your project folder run `npm install react-native-navigation --save`
+ * In your project folder run `npm install react-native-navigation@next --save`
 > Note: We recommend using npm ver 3+. If you insist on using npm ver 2 please notice that the location for react-native-controllers in node_modules will be under the react-native-navigation folder and you'll need to change the paths in Xcode below accordingly.
 
 * In Xcode, in Project Navigator (left pane), right-click on the `Libraries` > `Add files to [project name]`. Add `./node_modules/react-native-navigation/ios/ReactNativeNavigation.xcodeproj` ([screenshots](https://facebook.github.io/react-native/docs/linking-libraries-ios.html#step-1))
