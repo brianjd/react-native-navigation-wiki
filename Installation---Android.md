@@ -67,3 +67,4 @@ The following instructions are for the `next` version `2.0.0-experimental.x`, wh
 	    }
 	}
 	```
+6. Run react-native start
