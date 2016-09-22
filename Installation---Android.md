@@ -29,19 +29,19 @@ The following instructions are for the `next` version `2.0.0-experimental.x`, wh
 
 3. Your `MainActivity` should extend `com.reactnativenavigation.controllers.SplashActivity` instead of `ReactActivity`. If you have any `react-native` related methods in your `MainActivity` you can safely delete them.
 
-4. Create a custom Application class and update the `Application` element in `AndroidManifest.xml`
+4. Update the MainApplication file and update the `Application` element in `AndroidManifest.xml`
 	
 	```java
 	import com.reactnativenavigation.NavigationApplication;
 	
-	public class MyApplication extends NavigationApplication {
+	public class MainApplication extends NavigationApplication {
 	
 	}
 	```
 	
 	```xml
 	<application
-        android:name=".MyApplication"
+        android:name=".MainApplication"
         ...
         />
 	```
