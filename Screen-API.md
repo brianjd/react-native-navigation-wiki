@@ -1,6 +1,6 @@
 This API is relevant when in a screen component context - it allows a screen to push other screens, pop screens, change its navigator style, etc. Access to this API is available through the `navigator` object that is passed to your component through `props`.
 
- * **push(params)**
+## push(params)
 
 Push a new screen into this screen's navigation stack.
 
@@ -18,7 +18,7 @@ this.props.navigator.push({
 });
 ```
 
- * **pop(params = {})**
+## pop(params = {})
 
 Pop the top screen from this screen's navigation stack.
 
@@ -28,7 +28,7 @@ this.props.navigator.pop({
 });
 ```
 
- * **popToRoot(params = {})**
+## popToRoot(params = {})
 
 Pop all the screens until the root from this screen's navigation stack.
 
@@ -38,7 +38,7 @@ this.props.navigator.popToRoot({
 });
 ```
 
- * **resetTo(params)**
+## resetTo(params)
 
 Reset the screen's navigation stack to a new screen (the stack root is changed).
 
@@ -53,7 +53,7 @@ this.props.navigator.resetTo({
 });
 ```
 
- * **showModal(params = {})**
+## showModal(params = {})
 
 Show a screen as a modal.
 
@@ -67,7 +67,7 @@ this.props.navigator.showModal({
 });
 ```
 
- * **dismissModal(params = {})**
+## dismissModal(params = {})
 
 Dismiss the current modal.
 
@@ -77,7 +77,7 @@ this.props.navigator.dismissModal({
 });
 ```
 
- * **dismissAllModals(params = {})**
+## dismissAllModals(params = {})
 
 Dismiss all the current modals at the same time.
 
@@ -87,7 +87,7 @@ this.props.navigator.dismissAllModals({
 });
 ```
 
-* **showLightBox(params = {})**
+## showLightBox(params = {})
 
 Show a screen as a lightbox.
 
@@ -102,7 +102,7 @@ this.props.navigator.showLightBox({
 });
 ```
 
-* **dismissLightBox(params = {})**
+## dismissLightBox(params = {})
 
 Dismiss the current lightbox.
 
@@ -110,7 +110,7 @@ Dismiss the current lightbox.
 this.props.navigator.dismissLightBox();
 ```
 
- * **handleDeepLink(params = {})**
+## handleDeepLink(params = {})
 
 Trigger a deep link within the app. See [deep links](#deep-links) for more details about how screens can listen for deep link events.
 
@@ -120,7 +120,7 @@ this.props.navigator.handleDeepLink({
 });
 ```
 
- * **setOnNavigatorEvent(callback)**
+## setOnNavigatorEvent(callback)
 
 Set a handler for navigator events (like nav button press). This would normally go in your component constructor.
 
@@ -129,7 +129,7 @@ Set a handler for navigator events (like nav button press). This would normally 
 this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
 ```
 
- * **setButtons(params = {})**
+## setButtons(params = {})
 
 Set buttons dynamically on the navigator. If your buttons don't change during runtime, see "Adding buttons to the navigator" below to add them using `static navigatorButtons = {...};`.
 
@@ -141,7 +141,7 @@ this.props.navigator.setButtons({
 });
 ```
 
- * **setTitle(params = {})**
+## setTitle(params = {})
 
 Set the nav bar title dynamically. If your title doesn't change during runtime, set it when the screen is defined / pushed.
 
@@ -151,7 +151,7 @@ this.props.navigator.setTitle({
 });
 ```
 
- * **toggleDrawer(params = {})**
+## toggleDrawer(params = {})
 
 Toggle the side menu drawer assuming you have one in your app.
 
@@ -163,7 +163,7 @@ this.props.navigator.toggleDrawer({
 });
 ```
 
- * **toggleTabs(params = {})**
+## toggleTabs(params = {})
 
 Toggle whether the tabs are displayed or not (only in tab-based apps).
 
@@ -174,7 +174,7 @@ this.props.navigator.toggleTabs({
 });
 ```
 
- * **setTabBadge(params = {})**
+## setTabBadge(params = {})
 
 Set the badge on a tab (any string or numeric value).
 
@@ -185,7 +185,7 @@ this.props.navigator.setTabBadge({
 });
 ```
 
- * **switchToTab(params = {})**
+## switchToTab(params = {})
 
 Switch to a tab (sets it as the currently selected tab).
 
@@ -195,7 +195,7 @@ this.props.navigator.switchToTab({
 });
 ```
 
-* **toggleNavBar(params = {})**
+## toggleNavBar(params = {})
 
 Toggle whether the navigation bar is displayed or not.
 
