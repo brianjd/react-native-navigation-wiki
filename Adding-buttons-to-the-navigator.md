@@ -110,7 +110,8 @@ this.props.navigator.showContextualMenu(
         icon: require('../img/delete.png')
       }
     ],
-    (index) => console.log(`Button ${index} tapped`)
+    onButtonPressed: (index) => console.log(`Button ${index} tapped`)
+  }
 );
 ```
 
