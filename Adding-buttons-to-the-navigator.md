@@ -40,6 +40,22 @@ class FirstTabScreen extends Component {
   }
 ```
 
+#### Buttons object format
+
+```js
+{
+  rightButtons: [{ // buttons for the right side of the nav bar (optional)
+    title: 'Edit', // if you want a textual button
+    icon: require('../../img/navicon_edit.png'), // if you want an image button
+    id: 'compose', // id of the button which will pass to your press event handler
+    testID: 'e2e_is_awesome', // if you have e2e tests, use this to find your button
+    disabled: true, // optional, used to disable the button (appears faded and doesn't interact)
+    disableIconTint: true, // optional, by default the image colors are overridden and tinted to navBarButtonColor, set to true to keep the original image colors
+  }],
+  leftButtons: [] // buttons for the left side of the nav bar (optional)
+}
+```
+
 #### Floating Action Button (FAB) - Android only
 Each screen can contain a single Fab which is displayed at the bottom right corner of the screen.
 
@@ -78,18 +94,31 @@ Each screen can contain a single Fab which is displayed at the bottom right corn
     }
 ```
 
-#### Buttons object format
+#### Contextual TopBar Menu - Android only
+A contextual menu offers actions that affect a specific item or context frame in the UI. You can provide a context menu for any view, but they are most often used for items in a ListView, GridView, or other view collections in which the user can perform direct actions on each item. (Taken from the [Android documentation](https://developer.android.com/guide/topics/ui/menus.html#context-menu))
 
 ```js
-{
-  rightButtons: [{ // buttons for the right side of the nav bar (optional)
-    title: 'Edit', // if you want a textual button
-    icon: require('../../img/navicon_edit.png'), // if you want an image button
-    id: 'compose', // id of the button which will pass to your press event handler
-    testID: 'e2e_is_awesome', // if you have e2e tests, use this to find your button
-    disabled: true, // optional, used to disable the button (appears faded and doesn't interact)
-    disableIconTint: true, // optional, by default the image colors are overridden and tinted to navBarButtonColor, set to true to keep the original image colors
-  }],
-  leftButtons: [] // buttons for the left side of the nav bar (optional)
-}
+this.props.navigator.showContextualMenu(
+  {
+    rightButtons: [
+      {
+        title: 'Add',
+        icon: require('../img/add.png')
+      },
+      {
+        title: 'Delete',
+        icon: require('../img/delete.png')
+      }
+    ],
+    (index) => console.log(`Button ${index} tapped`)
+);
+```
+
+To style the `ContextualMenu`, use the following properties in the screen's `navigatorStyle`:
+```js
+static navigatorStyle = {
+  contextualMenuStatusBarColor: '#0092d1',
+  contextualMenuBackgroundColor: '#00adf5',
+  contextualMenuButtonsColor: '#ffffff'
+};
 ```
