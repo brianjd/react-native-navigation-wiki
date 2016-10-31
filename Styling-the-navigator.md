@@ -37,7 +37,10 @@ export default class StyledScreen extends Component {
   tabBarHidden: false, // make the screen content hide the tab bar (remembered across pushes)
   statusBarHideWithNavBar: false // hide the status bar if the nav bar is also hidden, useful for navBarHidden:true
   statusBarHidden: false, // make the status bar hidden regardless of nav bar state
-  statusBarTextColorScheme: 'dark' // text color of status bar, 'dark' / 'light' (remembered across pushes)
+  statusBarTextColorScheme: 'dark', // text color of status bar, 'dark' / 'light' (remembered across pushes)
+  collapsingToolBarImage: "http://lorempixel.com/400/200/", // Collapsing Toolbar image. Android only
+  collapsingToolBarImage: require('../../img/topbar.jpg'), // Collapsing Toolbar image. Either use a url or require a local image. Android only
+  collapsingToolBarCollapsedColor: '#0f2362' // Collapsing Toolbar scrim color. Android only
 }
 ```
 
