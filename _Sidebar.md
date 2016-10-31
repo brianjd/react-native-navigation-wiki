@@ -11,5 +11,5 @@
 * [Deep links](https://github.com/wix/react-native-navigation/wiki/Deep-links)
 * [Third party libraries support](https://github.com/wix/react-native-navigation/wiki/Third-party-libraries-support)
 * [Milestones](https://github.com/wix/react-native-navigation/wiki/Milestones)
-* [Contributing](https://github.com/wix/react-native-navigation/wiki#Contributing)
+* [Contributing](https://github.com/wix/react-native-navigation/wiki/Contributing)
 * [License](https://github.com/wix/react-native-navigation/wiki#license)
