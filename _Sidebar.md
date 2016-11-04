@@ -9,6 +9,7 @@
 * [Adding buttons to the navigator](https://github.com/wix/react-native-navigation/wiki/Adding-buttons-to-the-navigator)
 * [Styling the tab bar](https://github.com/wix/react-native-navigation/wiki/Styling-the-tab-bar)
 * [Deep links](https://github.com/wix/react-native-navigation/wiki/Deep-links)
+* [Android specific use cases](https://github.com/wix/react-native-navigation/wiki/Android)
 * [Third party libraries support](https://github.com/wix/react-native-navigation/wiki/Third-party-libraries-support)
 * [Milestones](https://github.com/wix/react-native-navigation/wiki/Milestones)
 * [Contributing](https://github.com/wix/react-native-navigation/wiki/Contributing)
